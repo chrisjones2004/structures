@@ -1,0 +1,13 @@
+trussoptimizater
+trussoptimizater.Actions
+trussoptimizater.Analysis
+trussoptimizater.Elements
+trussoptimizater.GUIModels
+trussoptimizater.Gui
+trussoptimizater.Gui.Dialogs
+trussoptimizater.Gui.Element2D
+trussoptimizater.Gui.Tables
+trussoptimizater.Matrix
+trussoptimizater.Sections
+trussoptimizater.TrussModels
+trussoptimizater.Utils

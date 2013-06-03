@@ -1,0 +1,87 @@
+
+****************************************************************************************
+These are a selection of tasks that I am currently working on to improve the application
+****************************************************************************************
+
+When you select elements individually an undoable edit doesnt get created
+
+Need to sort out textface, when you type help it should ask you what you want to do
+1. Add Elements
+2. Modify Elements - Currently not supported
+3. Select Elements
+
+
+
+should elements be firing ElementEvents when there data is changed. ie so get rid of index-event.
+
+//Need to add JUnit tests
+
+
+//Should results have their own evenetobject??
+
+//ElementModel em = truss.getElementModel(elements.get(0));
+his wont work if we want on undo for multiple delete undo/redo
+
+//The class AnalysisMethods should really have hashmap of all anayzers, That way menus and regression tools
+can automatically update them selves instead of hardcoding analysis names!
+//All classes should have private static class of public fields which need to be listed
+
+//Element classes should all have hashmaps so gui component such as BarPropertiesPanel restraint combo box can pick
+them up automiatically if they change.
+
+//Dont like the updateNumbers method and the way element have their own number
+//Maybe should have hashmap of elements instead i.e ?? will solve this problem
+
+//Section should not extend Element!!
+
+//when optimizer stops it should set it to stop
+
+
+//zoom all function still doenst work
+
+
+
+
+//Seems to be a problem with material density and graivty swapping around??
+
+
+
+//Maybe BarTableModel should implement ListSelectionListner so that we just have one selection model
+
+
+//Get rid of all TrussModel.OPERATION_IDLE, OPERATION_MASS_ADDING etc. Replace with mass adding event.
+if arg instanceof MassAddEWvent then update = false
+if arg instanceof MassEventFinished then update = trues
+
+//Set truss.getOperation() == TrussModel.MASS_REMOVING) this is barTable to be equal to IDLE and for all other tables
+
+//After optimization is finished, if sections have been optimized, all final sections should be added to my avaibale sections listmodel
+
+
+
+
+
+//Should be able to highlight by selecting item in output tabs, either revert to old methods or use custom listlistnermodel
+
+//Should have boolean in gui, called saved, not saved should be used where notAnalyzed is used
+
+//Add cut,copy, paste, 
+
+//When adding load should check that are there none on before adding, I dont like this maybe change structure slightly to allow
+//multiple loads to be on a node.
+
+
+
+//more checking in trusscreator methods
+//crashes if you specify only 1 field
+
+
+
+
+
+
+
+Long term projects
+
+//Fix object inspector
+//Add help dialog
